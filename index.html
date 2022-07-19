@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <!-- Test Comment -->
+    <head>
+        <title>A Brand New Day</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Hello World,HTML,Bro code">
+        <meta name="description" content="I'm making a website based on this video: https://www.youtube.com/watch?v=cyuzt1Dp8X8">
+        <meta name="author" content="David">
+        <meta http-equiv = "refresh" content = "1200">
+    </head>
+
+    <body>
+        Hello World! :D
+        
+        <h1>Title 1</h1>
+        <p>Headings range from 1-6 with 1 being the biggest font size heading</p>
+        <p>You can seperate text into spaced out paragraphs using the paragraph tags</p>
+
+        <hr>
+
+        <p>So far what I've taken away is that most of html in terms of style is based around tags</p>
+        Text in html doesn't really space that well, so even if in the code I write              10 spaces like I just did it'll
+        appear without the spaces or line breaks. However when I do this: &nbsp 
+        I am able to space out my text much further without breaking a line
+        or better yet, I can break the line by doing this: <br>
+        which should cause the text to line break.
+
+        <hr>
+
+        <h2>Now I'll be testing out the different styles of font changes I can make: </h2><br>
+            This should be normal text. <br>
+            This should be <b>bold</b> text. <br>
+            This should be <i>italicized or however</i> you spell it <br>
+            Two to the power of two should be shown as 2<sup>2</sup> <br>
+            and ln should be log<sub>10</sub>() <br>
+            We can make text <small>small</small>
+            and we can make text <big>big</big> <br>
+            Underlining is marked as <ins>inserted</ins> text while <del>crossed out</del> is marked as deleted text. <br>
+            If you need something <mark>highlighted</mark> it's to say it's marked <br>
+
+        <hr>
+
+        It's time to mess with attribute text <br>
+        
+        <a href="https://twitter.com/_sushi1021/status/1531076054227398656?t=r2xBUNlPkkDo9qv-EAIMmQ&s=09" target=_blank>
+            If you click this text, you'll see that this links you to the tweet the picture is from</a>
+        <br>
+        <!--Basically, in order to add attributes to an image, you literally just do the same as you would text
+        Tldr, wrap it in a tags-->
+        <a href="https://twitter.com/_sushi1021/status/1531076054227398656?t=r2xBUNlPkkDo9qv-EAIMmQ&s=09" target=_blank>
+        <img src="Gold.jpg"
+        height = 10%
+        width = 10%
+        alt = "This is the alternate text in the case of image source failure">
+        </a>
+        <br>
+        <a href="Gold.jpg" download="Gold the Pk Trainer by _sushi1021" target= _blank>
+            Click me to download the image
+        </a>
+        <br>
+        You can also just click the image itself to get to the tweet
+
+        <hr>
+
+        Now we're gonna mess with lists
+        <br>
+        <!--Unordered List-->
+        <!--The style="" is a css thing, so just keep that in mind-->
+        <h3>Here's an unordered List</h3>
+        <h4>Orange Sodas</h4>
+        <ul style="list-style-type: square">
+            <li>Jarritos</li>
+            <li>Fanta</li>
+            <li>Crush</li>
+        </ul>
+        <h3>Here's an ordered list</h3>
+        <h4>Priorities</h4>
+        <ol type = "i" start = "5">
+            <li>Sleep</li>
+            <li>Eat</li>
+            <li>program more stuff</li>
+        </ol>
+        <h3>Some stuper important list</h3>
+        <dl>
+            <dt>test 1</dt>
+            <dd>look at how cool this is</dd>
+            <dt>test 2</dt>
+            <dd>I can add descriptions to each of the elements on this list</dd>
+            <dt>test 3</dt>
+            <dd>im so good at this</dd>
+            <dt>look i can even make nested lists</dt>
+            <dd>
+                <ul style="list-style-type: square">
+                    <li>Jarritos</li>
+                    <li>Fanta</li>
+                    <li>Crush</li>
+                </ul>
+            </dd>
+        </dl>
+
+        <hr>
+
+        Now it's time to mess with tables
+        <br>
+        <table border=2px height = 500 width = 50%>
+            <tr bgcolor = "red" align = center>
+                <th>this is the table heading</th>
+                <th>i can make multiple of these</th>
+                <th>and these are table headings</th>
+            </tr>
+            <tr bgcolor = "gray" align = left>
+                <th>Here's part 2</th>
+                <td>These are entries</td>
+                <td>You see them?</td>
+            </tr>
+            <tr bgcolor = "blue" align = right>
+                <th>so cool</th>
+                <td>look another entry</td>
+                <td></td>
+            </tr>
+        </table>
+
+        <hr>
+        
+        Button time <br>
+        <button name="click_button" type="button">
+            Click Me!
+        </button>
+        <button disabled name="disabled_button">
+            disabled
+        </button>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="blank">
+        <button onclick="alert('No Touchy The button')" style="background-color:red; color: green;">
+            Don't click the button nerd
+            </button>
+            </a>
+
+        <hr>
+        <form action="thisiswheretheinformationgetssent.PHP">
+            <label for="field_1">field 1</label>
+            <input type="text" id="field_1" name="field_1" placeholder="spooky text">
+            <br>
+            <input type="reset">
+            <br>
+            <input type="submit">
+        </form>
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
